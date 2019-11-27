@@ -25,3 +25,8 @@ myList = [1, 2, 3, 4, 5]
 print(max(myList))
 print(max(myList))
 print()
+
+# Demonstration of the input function
+myNum = input("Input a number: ")
+print(myNum)
+print()
