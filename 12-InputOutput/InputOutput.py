@@ -1,5 +1,5 @@
 # Declaration and opening of a file
-myFile = open("Python-Learning-Track/12-InputOutput/inputFile.txt")
+myFile = open("Python-Learning-Track/12-InputOutput/sampleFile.txt")
 
 # Reading the contents of a file as a String
 myFile.seek(0)
@@ -15,27 +15,27 @@ print()
 myFile.close()
 
 # Using a file temporarily in a function with read permissions
-with open("Python-Learning-Track/12-InputOutput/inputFile.txt", mode = "r") as myFile:
+with open("Python-Learning-Track/12-InputOutput/sampleFile.txt", mode = "r") as myFile:
     fileContents = myFile.read()
 print(fileContents)
 print()
 
 # Using a file temporarily in a function with append permissions
-with open("Python-Learning-Track/12-InputOutput/inputFile.txt", mode = "a") as myFile:
+with open("Python-Learning-Track/12-InputOutput/sampleFile.txt", mode = "a") as myFile:
     myFile.write("\nThis is a .txt file.")
 
 # Using a file temporarily in a function with read permissions
-with open("Python-Learning-Track/12-InputOutput/inputFile.txt", mode = "r") as myFile:
+with open("Python-Learning-Track/12-InputOutput/sampleFile.txt", mode = "r") as myFile:
     fileContents = myFile.read()
 print(fileContents)
 print()
 
 # Using a file temporarily in a function with write permissions
-with open("Python-Learning-Track/12-InputOutput/inputFile.txt", mode = "w") as myFile:
+with open("Python-Learning-Track/12-InputOutput/sampleFile.txt", mode = "w") as myFile:
     myFile.write("This is a .txt file.\nThis is a .txt file.\nThis is a .txt file.")
 
 # Using a file temporarily in a function with read permissions
-with open("Python-Learning-Track/12-InputOutput/inputFile.txt", mode = "r") as myFile:
+with open("Python-Learning-Track/12-InputOutput/sampleFile.txt", mode = "r") as myFile:
     fileContents = myFile.read()
 print(fileContents)
 print()
