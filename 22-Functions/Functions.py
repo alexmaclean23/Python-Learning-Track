@@ -36,8 +36,8 @@ print()
 # Simple return function with arguments
 num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
-def add_function(num1, num2):
-    return num1 + num2
+def add_function(myNum1, myNum2):
+    return myNum1 + myNum2
 # Execution of return function
 print(add_function(num1, num2))
 print()

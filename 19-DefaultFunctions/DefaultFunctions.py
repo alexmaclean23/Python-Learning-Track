@@ -22,7 +22,7 @@ print()
 
 # Demonstration of the min and max functions
 myList = [1, 2, 3, 4, 5]
-print(max(myList))
+print(min(myList))
 print(max(myList))
 print()
 
