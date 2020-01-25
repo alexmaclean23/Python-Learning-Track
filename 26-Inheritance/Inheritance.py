@@ -75,3 +75,8 @@ print(myCanine.get_wings())
 print()
 print("####################################################")
 print()
+
+# Note on Abstract Classes
+# An abstract class is a base class that the programmer does not intend to be instantiated.
+# Instead, the class and it's methods are solely present to be inherited by its subclasses,
+# and the abstract methods in that class should raise errors if called by a class instance.
