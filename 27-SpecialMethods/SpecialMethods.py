@@ -32,3 +32,11 @@ class Book():
 myBook = Book(title = "1984", author = "George Orwell", pages = 200)
 print(myBook)
 print(len(myBook))
+
+# Note on __name__ and "__main__"
+# Larger scripts, particularly modules, often end with a block of code inside of an if statement.
+# Because python automatically sets the default __name__ variable to "__main__" when a script is run,
+# the 'if __name__ == "__main__": block only executes if the module is run as the primary script, not
+# an add-on. The block of code below can run whatever functions are necessary, but the idea as a whole
+# is simply to give the script the ability to check if it is being run independently, so it can adjust
+# accordingly.
