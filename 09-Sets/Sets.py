@@ -13,6 +13,18 @@ mySet.add(1)
 print(mySet)
 print()
 
+# Removing items from a set
+print(mySet)
+mySet.discard(0)
+print(mySet)
+print()
+
+# Removing all items from a set
+print(mySet)
+mySet.clear()
+print(mySet)
+print()
+
 # Casting lists to sets
 myList = [1, 1, 1, 2, 2, 3]
 print(myList)
